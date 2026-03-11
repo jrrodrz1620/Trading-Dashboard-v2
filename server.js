@@ -11,5 +11,4 @@ res.sendFile(path.join(__dirname, ‘index.html’));
 
 app.listen(PORT, () => {
 console.log(`Trading Dashboard running on port ${PORT}`);
-
 });
